@@ -1,9 +1,8 @@
 $(document).ready(function(){
-	$('.carousel').carousel();
-	 $("#Carousel").swiperight(function() {
-      $("#Carousel").carousel('prev');
+	 $(".carousel").swiperight(function() {
+      $(".carousel").carousel('prev');
     });
-   $("#Carousel").swipeleft(function() {
-      $("#Carousel").carousel('next');
+   $(".carousel").swipeleft(function() {
+      $(".carousel").carousel('next');
    });
-};)
+});
